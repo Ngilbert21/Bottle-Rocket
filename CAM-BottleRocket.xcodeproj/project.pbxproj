@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517F5ABD266ECDD700A8303A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5ABC266ECDD700A8303A /* AppDelegate.swift */; };
+		517F5ABF266ECDD700A8303A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5ABE266ECDD700A8303A /* SceneDelegate.swift */; };
+		517F5AC1266ECDD700A8303A /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5AC0266ECDD700A8303A /* RestaurantViewController.swift */; };
+		517F5AC4266ECDD700A8303A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517F5AC2266ECDD700A8303A /* Main.storyboard */; };
+		517F5AC6266ECDD900A8303A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517F5AC5266ECDD900A8303A /* Assets.xcassets */; };
+		517F5AC9266ECDD900A8303A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517F5AC7266ECDD900A8303A /* LaunchScreen.storyboard */; };
+		517F5AD1266ED23800A8303A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5AD0266ED23800A8303A /* WebViewController.swift */; };
+		517F5AD3266ED24F00A8303A /* ResInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5AD2266ED24F00A8303A /* ResInfoViewController.swift */; };
+		517F5AD5266ED29400A8303A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5AD4266ED29400A8303A /* CollectionViewCell.swift */; };
+		517F5AD7266ED2E700A8303A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5AD6266ED2E700A8303A /* NetworkManager.swift */; };
+		517F5AD9266ED2F700A8303A /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5AD8266ED2F700A8303A /* RestaurantModel.swift */; };
+		517F5B1B2671764A00A8303A /* RestaurantMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5B1A2671764A00A8303A /* RestaurantMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		517F5AB9266ECDD700A8303A /* CAM-BottleRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAM-BottleRocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517F5ABC266ECDD700A8303A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		517F5ABE266ECDD700A8303A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		517F5AC0266ECDD700A8303A /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		517F5AC3266ECDD700A8303A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		517F5AC5266ECDD900A8303A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		517F5AC8266ECDD900A8303A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		517F5ACA266ECDD900A8303A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517F5AD0266ED23800A8303A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		517F5AD2266ED24F00A8303A /* ResInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResInfoViewController.swift; sourceTree = "<group>"; };
+		517F5AD4266ED29400A8303A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		517F5AD6266ED2E700A8303A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		517F5AD8266ED2F700A8303A /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		517F5B1A2671764A00A8303A /* RestaurantMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517F5AB6266ECDD700A8303A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517F5AB0266ECDD700A8303A = {
+			isa = PBXGroup;
+			children = (
+				517F5ABB266ECDD700A8303A /* CAM-BottleRocket */,
+				517F5ABA266ECDD700A8303A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517F5ABA266ECDD700A8303A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517F5AB9266ECDD700A8303A /* CAM-BottleRocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517F5ABB266ECDD700A8303A /* CAM-BottleRocket */ = {
+			isa = PBXGroup;
+			children = (
+				517F5B1F26723C4100A8303A /* View */,
+				517F5B1E26723C2F00A8303A /* ViewModel */,
+				517F5B2026723C4B00A8303A /* Model */,
+				517F5ABC266ECDD700A8303A /* AppDelegate.swift */,
+				517F5ABE266ECDD700A8303A /* SceneDelegate.swift */,
+				517F5ACA266ECDD900A8303A /* Info.plist */,
+			);
+			path = "CAM-BottleRocket";
+			sourceTree = "<group>";
+		};
+		517F5B1E26723C2F00A8303A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				517F5AD2266ED24F00A8303A /* ResInfoViewController.swift */,
+				517F5AD4266ED29400A8303A /* CollectionViewCell.swift */,
+				517F5AC0266ECDD700A8303A /* RestaurantViewController.swift */,
+				517F5B1A2671764A00A8303A /* RestaurantMapViewController.swift */,
+				517F5AD0266ED23800A8303A /* WebViewController.swift */,
+				517F5AD6266ED2E700A8303A /* NetworkManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		517F5B1F26723C4100A8303A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				517F5AC2266ECDD700A8303A /* Main.storyboard */,
+				517F5AC5266ECDD900A8303A /* Assets.xcassets */,
+				517F5AC7266ECDD900A8303A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		517F5B2026723C4B00A8303A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				517F5AD8266ED2F700A8303A /* RestaurantModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517F5AB8266ECDD700A8303A /* CAM-BottleRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517F5ACD266ECDD900A8303A /* Build configuration list for PBXNativeTarget "CAM-BottleRocket" */;
+			buildPhases = (
+				517F5AB5266ECDD700A8303A /* Sources */,
+				517F5AB6266ECDD700A8303A /* Frameworks */,
+				517F5AB7266ECDD700A8303A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAM-BottleRocket";
+			productName = "CAM-BottleRocket";
+			productReference = 517F5AB9266ECDD700A8303A /* CAM-BottleRocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517F5AB1266ECDD700A8303A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					517F5AB8266ECDD700A8303A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 517F5AB4266ECDD700A8303A /* Build configuration list for PBXProject "CAM-BottleRocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517F5AB0266ECDD700A8303A;
+			productRefGroup = 517F5ABA266ECDD700A8303A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517F5AB8266ECDD700A8303A /* CAM-BottleRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517F5AB7266ECDD700A8303A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F5AC9266ECDD900A8303A /* LaunchScreen.storyboard in Resources */,
+				517F5AC6266ECDD900A8303A /* Assets.xcassets in Resources */,
+				517F5AC4266ECDD700A8303A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517F5AB5266ECDD700A8303A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517F5AC1266ECDD700A8303A /* RestaurantViewController.swift in Sources */,
+				517F5ABD266ECDD700A8303A /* AppDelegate.swift in Sources */,
+				517F5AD9266ED2F700A8303A /* RestaurantModel.swift in Sources */,
+				517F5B1B2671764A00A8303A /* RestaurantMapViewController.swift in Sources */,
+				517F5AD5266ED29400A8303A /* CollectionViewCell.swift in Sources */,
+				517F5AD7266ED2E700A8303A /* NetworkManager.swift in Sources */,
+				517F5ABF266ECDD700A8303A /* SceneDelegate.swift in Sources */,
+				517F5AD3266ED24F00A8303A /* ResInfoViewController.swift in Sources */,
+				517F5AD1266ED23800A8303A /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		517F5AC2266ECDD700A8303A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517F5AC3266ECDD700A8303A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		517F5AC7266ECDD900A8303A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517F5AC8266ECDD900A8303A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517F5ACB266ECDD900A8303A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		517F5ACC266ECDD900A8303A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517F5ACE266ECDD900A8303A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NP68QTF7C;
+				INFOPLIST_FILE = "CAM-BottleRocket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CAT2k21.CAM-BottleRocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		517F5ACF266ECDD900A8303A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NP68QTF7C;
+				INFOPLIST_FILE = "CAM-BottleRocket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CAT2k21.CAM-BottleRocket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517F5AB4266ECDD700A8303A /* Build configuration list for PBXProject "CAM-BottleRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517F5ACB266ECDD900A8303A /* Debug */,
+				517F5ACC266ECDD900A8303A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517F5ACD266ECDD900A8303A /* Build configuration list for PBXNativeTarget "CAM-BottleRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517F5ACE266ECDD900A8303A /* Debug */,
+				517F5ACF266ECDD900A8303A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517F5AB1266ECDD700A8303A /* Project object */;
+}
