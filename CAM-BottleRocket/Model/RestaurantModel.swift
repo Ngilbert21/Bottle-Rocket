@@ -2,7 +2,7 @@
 //  RestaurantModel.swift
 //  CAM-BottleRocket
 //
-//  Created by Christian Mallapre on 6/7/21.
+//  Created by Nicholas Gilbert on 6/7/21.
 //
 
 import Foundation
